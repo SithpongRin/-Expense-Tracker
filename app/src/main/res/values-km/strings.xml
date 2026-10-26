@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">កម្មវិធីតាមដានការចំណាយ</string>
+    <string name="nav_home">ទំព័រដើម</string>
+    <string name="nav_transactions">ប្រតិបត្តិការ</string>
+    <string name="nav_add">បន្ថែម</string>
+    <string name="nav_reports">របាយការណ៍</string>
+    <string name="nav_settings">ការកំណត់</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_total_balance">សមតុល្យសរុប</string>
+    <string name="dashboard_income">ចំណូល</string>
+    <string name="dashboard_expense">ចំណាយ</string>
+    <string name="dashboard_monthly_budget">កញ្ចប់ថវិកាប្រចាំខែ</string>
+    <string name="dashboard_remaining">នៅសល់</string>
+    <string name="dashboard_spent">បានចំណាយ</string>
+    <string name="dashboard_top_categories">ចំណាត់ថ្នាក់ចំណាយច្រើន</string>
+    <string name="dashboard_recent_transactions">ប្រតិបត្តិការថ្មីៗ</string>
+    <string name="dashboard_see_all">មើលទាំងអស់</string>
+    <string name="dashboard_no_transactions">មិនទាន់មានប្រតិបត្តិការនៅឡើយទេ</string>
+    <string name="dashboard_no_transactions_sub">ចុចសញ្ញា + ដើម្បីកត់ត្រាចំណូល ឬចំណាយដំបូងរបស់អ្នក</string>
+    <string name="dashboard_summary_period">សង្ខេប</string>
+
+    <!-- Keypad & Amount -->
+    <string name="action_save">រក្សាទុក</string>
+    <string name="action_cancel">បោះបង់</string>
+    <string name="action_delete">លុប</string>
+    <string name="action_edit">កែប្រែ</string>
+    <string name="action_confirm">យល់ព្រម</string>
+    <string name="action_close">បិទ</string>
+
+    <string name="transaction_expense">ចំណាយ</string>
+    <string name="transaction_income">ចំណូល</string>
+    <string name="transaction_transfer">ផ្ទេរប្រាក់</string>
+    <string name="field_amount">ចំនួនទឹកប្រាក់</string>
+    <string name="field_category">ប្រភេទចំណាត់ថ្នាក់</string>
+    <string name="field_wallet">កាបូប / គណនី</string>
+    <string name="field_date_time">កាលបរិច្ឆេទ &amp; ពេលវេលា</string>
+    <string name="field_merchant">ហាង ឬ អ្នកទទួល</string>
+    <string name="field_notes">កំណត់ចំណាំ (ជម្រើស)</string>
+    <string name="field_attachment">វិក្កយបត្រ / រូបភាព</string>
+    <string name="scan_receipt">ស្កេនវិក្កយបត្រ (OCR)</string>
+    <string name="pick_image">ជ្រើសរើសរូបភាព</string>
+    <string name="take_photo">ថតរូបភាព</string>
+    <string name="error_invalid_amount">សូមបញ្ចូលចំនួនទឹកប្រាក់ត្រឹមត្រូវ</string>
+    <string name="error_select_category">សូមជ្រើសរើសប្រភេទ</string>
+    <string name="error_select_wallet">សូមជ្រើសរើសកាបូបប្រាក់</string>
+
+    <!-- Transactions List & Filter -->
+    <string name="search_hint">ស្វែងរកតាមឈ្មោះ កំណត់ចំណាំ ឬប្រភេទ…</string>
+    <string name="filter_all">ទាំងអស់</string>
+    <string name="filter_expense">ចំណាយ</string>
+    <string name="filter_income">ចំណូល</string>
+    <string name="filter_transfer">ផ្ទេរប្រាក់</string>
+    <string name="sort_newest">ថ្មីបំផុតមុន</string>
+    <string name="sort_oldest">ចាស់បំផុតមុន</string>
+    <string name="sort_highest">ចំនួនច្រើនបំផុត</string>
+    <string name="sort_lowest">ចំនួនតិចបំផុត</string>
+    <string name="transaction_detail">ព័ត៌មានលម្អិតប្រតិបត្តិការ</string>
+    <string name="confirm_delete_title">លុបប្រតិបត្តិការនេះ?</string>
+    <string name="confirm_delete_msg">ប្រតិបត្តិការនេះនឹងត្រូវលុបជាអចិន្ត្រៃយ៍ ហើយសមតុល្យនឹងត្រូវកែតម្រូវឡើងវិញ។</string>
+
+    <!-- Categories -->
+    <string name="cat_food">ម្ហូបអាហារ &amp; ញ៉ាំអី</string>
+    <string name="cat_drinks">ភេសជ្ជៈ</string>
+    <string name="cat_coffee">កាហ្វេ</string>
+    <string name="cat_transport">ការធ្វើដំណើរ</string>
+    <string name="cat_education">ការអប់រំ</string>
+    <string name="cat_housing">ផ្ទះ &amp; ថ្លៃជួល</string>
+    <string name="cat_bills">ថ្លៃទឹកភ្លើង &amp; សេវាផ្សេងៗ</string>
+    <string name="cat_health">សុខភាព &amp; ថ្នាំសង្កូវ</string>
+    <string name="cat_entertainment">ការកម្សាន្ត</string>
+    <string name="cat_shopping">ទិញឥវ៉ាន់</string>
+    <string name="cat_family">គ្រួសារ</string>
+    <string name="cat_other">ផ្សេងៗ</string>
+    <string name="cat_salary">ប្រាក់បៀវត្សរ៍</string>
+    <string name="cat_business">អាជីវកម្ម</string>
+    <string name="cat_investment">ការវិនិយោគ</string>
+    <string name="cat_gift">អំណោយ</string>
+
+    <!-- Wallets -->
+    <string name="wallet_cash">លុយសុទ្ធ</string>
+    <string name="wallet_aba">ធនាគារ ABA</string>
+    <string name="wallet_acleda">ធនាគារ អេស៊ីលីដា</string>
+    <string name="wallet_wing">ធនាគារ វីង</string>
+    <string name="wallet_management">កាបូប និងគណនី</string>
+    <string name="wallet_add">បន្ថែមគណនីថ្មី</string>
+    <string name="wallet_name">ឈ្មោះគណនី</string>
+    <string name="wallet_initial_balance">សមតុល្យដើម</string>
+    <string name="wallet_transfer_title">ផ្ទេរប្រាក់រវាងគណនី</string>
+    <string name="wallet_from">ពីគណនី</string>
+    <string name="wallet_to">ទៅគណនី</string>
+
+    <!-- Budgets -->
+    <string name="budgets_title">កញ្ចប់ថវិកា</string>
+    <string name="budget_monthly">ថវិកាសរុបប្រចាំខែ</string>
+    <string name="budget_category">ថវិកាតាមប្រភេទ</string>
+    <string name="budget_add">កំណត់កញ្ចប់ថវិកា</string>
+    <string name="budget_warning_80">ការជូនដំណឹង៖ ដល់ ៨០% នៃកញ្ចប់ថវិកាហើយ!</string>
+    <string name="budget_exceeded">ការជូនដំណឹង៖ ចំណាយលើស ១០០% នៃកញ្ចប់ថវិកាហើយ!</string>
+
+    <!-- Reports -->
+    <string name="reports_title">ការវិភាគ &amp; របាយការណ៍</string>
+    <string name="period_daily">ប្រចាំថ្ងៃ</string>
+    <string name="period_weekly">ប្រចាំសប្តាហ៍</string>
+    <string name="period_monthly">ប្រចាំខែ</string>
+    <string name="period_yearly">ប្រចាំឆ្នាំ</string>
+    <string name="net_savings">ប្រាក់សន្សំសុទ្ធ</string>
+    <string name="spending_trends">និន្នាការនៃការចំណាយ</string>
+    <string name="breakdown_by_category">ការបែងចែកតាមប្រភេទ</string>
+
+    <!-- Savings & Debts -->
+    <string name="savings_goals">គោលដៅសន្សំប្រាក់</string>
+    <string name="add_savings_goal">បន្ថែមគោលដៅសន្សំថ្មី</string>
+    <string name="debt_tracker">ការតាមដានបំណុល</string>
+    <string name="debt_i_owe">លុយជំពាក់គេ (ត្រូវសង)</string>
+    <string name="debt_they_owe">គេជំពាក់យើង (ត្រូវទារ)</string>
+    <string name="recurring_title">ប្រតិបត្តិការប្រចាំកាលកំណត់</string>
+    <string name="add_recurring">បន្ថែមប្រតិបត្តិការទៀងទាត់</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ការកំណត់</string>
+    <string name="settings_general">ទូទៅ</string>
+    <string name="settings_language">ភាសា</string>
+    <string name="settings_appearance">ទម្រង់ពណ៌</string>
+    <string name="theme_light">ពណ៌ភ្លឺ</string>
+    <string name="theme_dark">ពណ៌ងងឹត</string>
+    <string name="theme_system">តាមប្រព័ន្ធទូរសព្ទ</string>
+    <string name="settings_currency">រូបិយប័ណ្ណលំនាំដើម</string>
+    <string name="settings_security">សុវត្ថិភាព &amp; ស្កេនមេដៃ</string>
+    <string name="settings_biometric_lock">ចាក់សោដោយស្កេនមេដៃ/មុខ</string>
+    <string name="settings_backup_export">បម្រុងទុក &amp; នាំចេញ</string>
+    <string name="export_csv">នាំចេញជាឯកសារ CSV</string>
+    <string name="export_pdf">នាំចេញជារបាយការណ៍ PDF</string>
+    <string name="backup_full">បង្កើតឯកសារបម្រុងទុកមានកូដសម្ងាត់</string>
+    <string name="restore_full">ស្តារទិន្នន័យពីឯកសារបម្រុងទុក</string>
+    <string name="settings_updates">ការអាប់ដេតតាមរយៈ GitHub</string>
+    <string name="check_updates">ពិនិត្យមើលកំណែថ្មី</string>
+    <string name="app_version">កំណែកម្មវិធី</string>
+    <string name="release_notes">កំណត់សម្គាល់កំណែថ្មី</string>
+    <string name="about_licenses">អំពីកម្មវិធី &amp; អាជ្ញាប័ណ្ណ</string>
+</resources>

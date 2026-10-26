@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_total_balance">Total Balance</string>
+    <string name="dashboard_income">Income</string>
+    <string name="dashboard_expense">Expense</string>
+    <string name="dashboard_monthly_budget">Monthly Budget</string>
+    <string name="dashboard_remaining">Remaining</string>
+    <string name="dashboard_spent">Spent</string>
+    <string name="dashboard_top_categories">Top Categories</string>
+    <string name="dashboard_recent_transactions">Recent Transactions</string>
+    <string name="dashboard_see_all">See All</string>
+    <string name="dashboard_no_transactions">No transactions recorded yet.</string>
+    <string name="dashboard_no_transactions_sub">Tap + to add your first expense or income.</string>
+    <string name="dashboard_summary_period">Summary</string>
+
+    <!-- Keypad & Amount -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_close">Close</string>
+
+    <string name="transaction_expense">Expense</string>
+    <string name="transaction_income">Income</string>
+    <string name="transaction_transfer">Transfer</string>
+    <string name="field_amount">Amount</string>
+    <string name="field_category">Category</string>
+    <string name="field_wallet">Wallet / Account</string>
+    <string name="field_date_time">Date &amp; Time</string>
+    <string name="field_merchant">Merchant / Payee</string>
+    <string name="field_notes">Notes (optional)</string>
+    <string name="field_attachment">Receipt / Attachment</string>
+    <string name="scan_receipt">Scan Receipt (OCR)</string>
+    <string name="pick_image">Choose Image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="error_invalid_amount">Please enter a valid amount.</string>
+    <string name="error_select_category">Please select a category.</string>
+    <string name="error_select_wallet">Please select a wallet.</string>
+
+    <!-- Transactions List & Filter -->
+    <string name="search_hint">Search merchant, note, category…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_expense">Expense</string>
+    <string name="filter_income">Income</string>
+    <string name="filter_transfer">Transfer</string>
+    <string name="sort_newest">Newest First</string>
+    <string name="sort_oldest">Oldest First</string>
+    <string name="sort_highest">Highest Amount</string>
+    <string name="sort_lowest">Lowest Amount</string>
+    <string name="transaction_detail">Transaction Details</string>
+    <string name="confirm_delete_title">Delete Transaction?</string>
+    <string name="confirm_delete_msg">This will permanently delete this transaction and restore the balance.</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Food &amp; Dining</string>
+    <string name="cat_drinks">Drinks</string>
+    <string name="cat_coffee">Coffee</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_education">Education</string>
+    <string name="cat_housing">Housing &amp; Rent</string>
+    <string name="cat_bills">Bills &amp; Utilities</string>
+    <string name="cat_health">Healthcare</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_family">Family</string>
+    <string name="cat_other">Other</string>
+    <string name="cat_salary">Salary</string>
+    <string name="cat_business">Business</string>
+    <string name="cat_investment">Investment</string>
+    <string name="cat_gift">Gift</string>
+
+    <!-- Wallets -->
+    <string name="wallet_cash">Cash</string>
+    <string name="wallet_aba">ABA Bank</string>
+    <string name="wallet_acleda">ACLEDA Bank</string>
+    <string name="wallet_wing">Wing Bank</string>
+    <string name="wallet_management">Wallets &amp; Accounts</string>
+    <string name="wallet_add">Add Wallet</string>
+    <string name="wallet_name">Account Name</string>
+    <string name="wallet_initial_balance">Initial Balance</string>
+    <string name="wallet_transfer_title">Transfer Between Accounts</string>
+    <string name="wallet_from">From Account</string>
+    <string name="wallet_to">To Account</string>
+
+    <!-- Budgets -->
+    <string name="budgets_title">Budgets</string>
+    <string name="budget_monthly">Monthly Total Budget</string>
+    <string name="budget_category">Category Budgets</string>
+    <string name="budget_add">Set Budget</string>
+    <string name="budget_warning_80">Budget warning: 80% reached!</string>
+    <string name="budget_exceeded">Budget warning: 100% exceeded!</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Analytics &amp; Reports</string>
+    <string name="period_daily">Daily</string>
+    <string name="period_weekly">Weekly</string>
+    <string name="period_monthly">Monthly</string>
+    <string name="period_yearly">Yearly</string>
+    <string name="net_savings">Net Savings</string>
+    <string name="spending_trends">Spending Trends</string>
+    <string name="breakdown_by_category">Category Breakdown</string>
+
+    <!-- Savings & Debts -->
+    <string name="savings_goals">Savings Goals</string>
+    <string name="add_savings_goal">New Savings Goal</string>
+    <string name="debt_tracker">Debt &amp; Loan Tracker</string>
+    <string name="debt_i_owe">Money I Owe (Payable)</string>
+    <string name="debt_they_owe">Money Owed to Me (Receivable)</string>
+    <string name="recurring_title">Recurring Transactions</string>
+    <string name="add_recurring">Add Recurring Schedule</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="settings_currency">Default Currency</string>
+    <string name="settings_security">Security &amp; Biometrics</string>
+    <string name="settings_biometric_lock">Biometric Lock</string>
+    <string name="settings_backup_export">Backup &amp; Export</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="export_pdf">Export PDF Report</string>
+    <string name="backup_full">Create Encrypted Backup</string>
+    <string name="restore_full">Restore Backup</string>
+    <string name="settings_updates">GitHub Updates</string>
+    <string name="check_updates">Check for Updates</string>
+    <string name="app_version">App Version</string>
+    <string name="release_notes">Release Notes</string>
+    <string name="about_licenses">About &amp; Licenses</string>
+</resources>
