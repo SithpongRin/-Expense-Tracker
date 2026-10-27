@@ -62,17 +62,6 @@ jobs:
       - name: Build Release APK
         run: ./gradlew assembleRelease
 
-      - name: Sign Release APK with Custom Key (Optional)
-        id: sign_app
-        if: ${{ secrets.ANDROID_SIGNING_KEY != '' }}
-        uses: r0adkll/sign-android-release@v1
-        with:
-          releaseDirectory: app/build/outputs/apk/release
-          signingKeyBase64: ${{ secrets.ANDROID_SIGNING_KEY }}
-          alias: ${{ secrets.ANDROID_ALIAS }}
-          keyStorePassword: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
-          keyPassword: ${{ secrets.ANDROID_KEY_PASSWORD }}
-
       - name: Compute SHA-256 Checksum
         run: |
           cd app/build/outputs/apk/release
